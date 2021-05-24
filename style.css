@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+
+.waiting {
+  height: 50vh;
+}
+
+::selection {
+  background: #2b2b2b;
+  color: #ebebeb;
+}
